@@ -4,6 +4,7 @@ import {
   faPlay,
   faAngleLeft,
   faAngleRight,
+  faPause,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Player = ({currentSong, isPlaying, setIsPlaying}) => {
@@ -41,8 +42,8 @@ setSongInfo({...songInfo, currentTime: e.target.value})
 } 
 
 const [songInfo, setSongInfo] = useState({
-  currentTime: null,
-  duration: null
+  currentTime: 0,
+  duration: 0
 })
 
 
@@ -55,7 +56,7 @@ const [songInfo, setSongInfo] = useState({
       </div>
       <div className="play-control">
         <FontAwesomeIcon className="skip-back" size="2x" icon={faAngleLeft} />
-        <FontAwesomeIcon onClick={playSongHandler}className="play" size="2x" icon={faPlay} />
+        <FontAwesomeIcon onClick={playSongHandler}className="play" size="2x" icon={isPlaying ? faPause : faPlay } />
         <FontAwesomeIcon
           className="skip-forward"
           size="2x"
