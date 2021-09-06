@@ -1,9 +1,12 @@
 import React from "react";
+import Player from "./components/Player";
+import Podcast from "./components/Podcast";
 
 function App() {
   return (
     <div className="App">
-      <h1>Podcast Player</h1>
+      <Podcast />
+      <Player />
     </div>
   );
 }
