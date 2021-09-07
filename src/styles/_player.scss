@@ -30,3 +30,10 @@ svg {
   cursor: pointer;
 }
 }
+
+@media screen and (max-width: 768px) {
+  .time-control {
+    width: 90%;
+   
+  }
+}
