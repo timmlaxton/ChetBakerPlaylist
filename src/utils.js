@@ -2,66 +2,146 @@ import { v4 as uuidv4 } from "uuid";
 function chillHop() {
   return [
     {
-      name: "Beaver Creek",
+      name: "That Old Feeling",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
-      artist: "Aso, Middle School, Aviino",
-      audio: "https://workingcomicspodcast.s3.eu-west-2.amazonaws.com/Alex+R+Master.mp3",
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/01+That+Old+Feeling.mp3",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
       active: true,
     },
     {
-      name: "Daylight",
+      name: "It's Always You",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-      artist: "Aiguille",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/02+It's+Always+You.mp3",
       color: ["#EF8EA9", "#ab417f"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Keep Going",
+      name: "Like Someone In love",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
-      artist: "Swørn",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9222",
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/03+Like+Someone+in+Love.mp3",
       color: ["#CD607D", "#c94043"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Nightfall",
+      name: "My Ideal",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-      artist: "Aiguille",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9148",
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/04+My+Ideal.mp3",
       color: ["#EF8EA9", "#ab417f"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Reflection",
+      name: "I've Never Been in Love Before",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
-      artist: "Swørn",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9228",
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/05+I've+Never+Been+in+Love+Before.mp3",
       color: ["#CD607D", "#c94043"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Under the City Stars",
+      name: "My Buddy",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
-      artist: "Aso, Middle School, Aviino",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=10074",
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/06+My+Buddy.mp3",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
       active: false,
     },
-    //ADD MORE HERE
+    {
+      name: "But Not For Me",
+      cover:
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/07+But+Not+for+Me.mp3",
+      color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Time after Time",
+      cover:
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/08+Time+After+Time.mp3",
+      color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "I Get Along Without You Very Well",
+      cover:
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/09+I+Get+Along+Without+You+Very+Well.mp3",
+      color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "My Funny Valentine",
+      cover:
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/10+My+Funny+Valentine.mp3",
+      color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "There Will Never Be Another You",
+      cover:
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/11+There+Will+Never+Be+Another+You.mp3",
+      color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "The Thrill Is Gone",
+      cover:
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/12+The+Thrill+Is+Gone.mp3",
+      color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "I Fall In Love Too Easily",
+      cover:
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/13+I+Fall+in+Love+Too+Easily.mp3",
+      color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Look For The Silver Lining",
+      cover:
+        "https://upload.wikimedia.org/wikipedia/en/6/60/Chet_Baker_Sings.jpg",
+      artist: "Chet Baker",
+      audio: "https://bakermusic.s3.eu-west-2.amazonaws.com/14+Look+for+the+Silver+Lining.mp3",
+      color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: false,
+    },
+   
   ];
 }
 
