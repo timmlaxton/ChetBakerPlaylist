@@ -37,7 +37,7 @@ setSongInfo({...songInfo, currentTime: current, duration})
         songs={songs}
         setCurrentSong={setCurrentSong}
       />
-      <Library audioRef={audioRef} songs={songs} setCurrentSong={setCurrentSong} isPlaying={isPlaying} libraryStatus={libraryStatus} />
+      <Library audioRef={audioRef} songs={songs} setCurrentSong={setCurrentSong} isPlaying={isPlaying} libraryStatus={libraryStatus} setSongs={setSongs} />
       <audio 
       onTimeUpdate={timeUpdateHandler} 
       onLoadedMetadata={timeUpdateHandler} 
